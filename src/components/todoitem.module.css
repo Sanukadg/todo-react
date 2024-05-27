@@ -1,14 +1,13 @@
 .item{
   width: 500px;
-  color: #353935;
+  color: #b4b7be;
   font-size: 20px;
   margin: 0 auto;
   cursor: pointer;
 }
 
 .itemName{
-  font-weight: bold;
-  padding: 20px;
+  padding: 10px;
 }
 
 .line{
@@ -17,17 +16,18 @@
 
 .deleteButton{
   float: right;
-  padding: 12px 20px;
+  padding: 12px 16px;
+  font-weight: bold;
   border: none;
-  background-color: #4D869C;
+  background-color: #1f252e;
   color: white;
   margin-top: -5px;
-  border-radius: 4px;
+  border-radius: 100%;
   cursor: pointer;
 }
 
 .deleteButton:hover{
-  background-color: #335968;
+  background-color: #1a212c;
 }
 
 .completed{

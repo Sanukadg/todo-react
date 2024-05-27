@@ -1,0 +1,10 @@
+p{
+  color: #6a6a6a;
+}
+
+.container{
+  text-align: left;
+  bottom: 50px;
+  right: 40px;
+  position: fixed;
+}

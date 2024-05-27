@@ -1,17 +1,9 @@
 .todoform{
-  background-color: #EEF7FF;
-  opacity: 0.7;
   border-radius: 8px;
   padding: 20px;
   width: 500px;
-  margin: 0 auto;
-  margin-top: 50px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.todoform:hover,
-.todoform:focus-within{
-  opacity: 1;
+  margin: 50 auto;
+  margin-top: 10px;
 }
 
 .modernInput{
@@ -20,8 +12,13 @@
   width: 100%;
   border: none;
   display: block;
-  color: black;
+  color: #b4b7be;
   font-size: 16px;
+  background-color: #1f252e;
+}
+
+::placeholder {
+  color: #63676f;
 }
 
 .modernInput:focus{
@@ -29,17 +26,19 @@
 }
 
 .modernButton{
+  font-weight: bold;
   display: inline-block;
   border: none;
-  border-radius: 4px;
-  background-color: #4D869C;
-  padding: 12px 20px;
+  border-radius: 100%;
+  background-color: #1f252e;
+  margin-left: 5px;
+  padding: 12px 16px; 
   color: white;
   cursor: pointer;
 }
 
 .modernButton:hover{
-  background-color: #335968;
+  background-color: #1a212c;
 }
 
 .inputContainer{

@@ -2,6 +2,6 @@ import styles from './header.module.css'
 
 export default function Header(){
   return(
-    <div className={styles.header}>My To do List</div>
+    <div className={styles.header}>My To-do List</div>
   );
 }
